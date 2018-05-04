@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+
+<mapper namespace="com.szk.dao.IUserDao">
+	<resultMap id="UserInfo" type="com.szk.vo.User">
+		<result column="userId" property="User_Id" javaType="VARCHAR"/>
+		<result column="password" property="Password" javaType="VARCHAR"/>
+		<result column="userName" property="UserName" javaType="VARCHAR"/>
+		
+	</resultMap>
+	<sql id="column_list">
+		userId,password,userName
+	</sql>
+	
+	<!-- 登录校验 -->
+	<select id="checkedUser" resultMap="UserInfo" parameterType="com.szk.vo.User">
+		select
+		<include refid="column_list"/>
+		from user
+		where userId=#{User_Id}
+		and password=#{Password}
+	</select>
+
+</mapper>

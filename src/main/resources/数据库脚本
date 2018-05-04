@@ -1,0 +1,33 @@
+create table sale(
+	id 			int primary key auto_increment,
+	CarName 	varchar(50) not null,
+	CarNum 		varchar(100) not null,
+	SaleBuyer	varchar(50) not null,
+	SalePrice	float(10,2) not null,
+	SaleNum		int not null,
+	SaleHead	varchar(50) not null,
+	CarSupplier	varchar(50) not null,
+	BuyerPhone	varchar(13) not null,
+	SaleDate	datetime not null
+);
+
+create table storage(
+	id			int primary key auto_increment,
+	CarName		varchar(50) not null,
+	CarNum		int not null,
+	CarHead		varchar(50) not null,
+	CarColor	varchar(50) not null,
+	CarSupplier	varchar(50) not null,
+	CarPrice	float(10,2) not null,
+	CarSale		float(10,2) not null,
+	CarDate		datetime not null
+);
+
+
+create table user(
+	userId		varchar(20) unique,
+	password	varchar(50) not null,
+	userName	varchar(50) not null
+); 
+insert into user(userId,password,userName) values('root','root','szk');
+

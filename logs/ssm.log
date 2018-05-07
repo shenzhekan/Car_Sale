@@ -615,3 +615,38 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.druid.pool.DruidDataSou
 	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1432)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1377)
 	... 24 more
+[INFO] [2018-05-07 11:52:57][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+  [INFO] [2018-05-07 11:52:57][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Mon May 07 11:52:57 CST 2018]; root of context hierarchy
+  [INFO] [2018-05-07 11:52:57][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 58 ms
+  [INFO] [2018-05-07 11:52:57][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'springmvc': initialization started
+  [INFO] [2018-05-07 11:52:57][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Mon May 07 11:52:57 CST 2018]; parent: Root WebApplicationContext
+  [INFO] [2018-05-07 11:52:57][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'springmvc': initialization completed in 37 ms
+  [INFO] [2018-05-07 13:35:04][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+  [INFO] [2018-05-07 13:35:04][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Mon May 07 13:35:04 CST 2018]; root of context hierarchy
+  [INFO] [2018-05-07 13:35:04][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 64 ms
+  [INFO] [2018-05-07 13:35:04][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'springmvc': initialization started
+  [INFO] [2018-05-07 13:35:04][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Mon May 07 13:35:04 CST 2018]; parent: Root WebApplicationContext
+  [INFO] [2018-05-07 13:35:04][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'springmvc': initialization completed in 39 ms
+  [INFO] [2018-05-07 13:35:29][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+  [INFO] [2018-05-07 13:35:29][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Mon May 07 13:35:29 CST 2018]; root of context hierarchy
+  [INFO] [2018-05-07 13:35:29][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 75 ms
+  [INFO] [2018-05-07 13:35:29][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'springmvc': initialization started
+  [INFO] [2018-05-07 13:35:29][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Mon May 07 13:35:29 CST 2018]; parent: Root WebApplicationContext
+  [INFO] [2018-05-07 13:35:29][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'springmvc': initialization completed in 41 ms
+  [WARN] [2018-05-07 13:35:51][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/] in DispatcherServlet with name 'springmvc'
+  [INFO] [2018-05-07 13:36:19][org.springframework.web.context.support.XmlWebApplicationContext]Closing WebApplicationContext for namespace 'springmvc-servlet': startup date [Mon May 07 13:35:29 CST 2018]; parent: Root WebApplicationContext
+  [INFO] [2018-05-07 13:36:20][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+  [INFO] [2018-05-07 13:36:20][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Mon May 07 13:36:20 CST 2018]; root of context hierarchy
+  [INFO] [2018-05-07 13:36:20][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 58 ms
+  [INFO] [2018-05-07 13:36:20][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'springmvc': initialization started
+  [INFO] [2018-05-07 13:36:20][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Mon May 07 13:36:20 CST 2018]; parent: Root WebApplicationContext
+  [INFO] [2018-05-07 13:36:20][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'springmvc': initialization completed in 34 ms
+  [INFO] [2018-05-07 13:36:37][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+  [INFO] [2018-05-07 13:36:37][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Mon May 07 13:36:37 CST 2018]; root of context hierarchy
+  [INFO] [2018-05-07 13:36:37][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 66 ms
+  [INFO] [2018-05-07 13:36:37][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'springmvc': initialization started
+  [INFO] [2018-05-07 13:36:37][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Mon May 07 13:36:37 CST 2018]; parent: Root WebApplicationContext
+  [INFO] [2018-05-07 13:36:37][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'springmvc': initialization completed in 39 ms
+  [WARN] [2018-05-07 13:37:00][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/] in DispatcherServlet with name 'springmvc'
+  [WARN] [2018-05-07 13:37:04][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/] in DispatcherServlet with name 'springmvc'
+  

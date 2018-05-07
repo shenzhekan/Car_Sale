@@ -254,7 +254,7 @@
 	            <configuration>  
 	                <scanIntervalSeconds>10</scanIntervalSeconds>  
 	                <webApp>  
-	                    <contextPath>/</contextPath>  
+	                    <contextPath>/SSMDemo</contextPath>  
 	                </webApp>  
 	                <connectors>  
 	                    <connector implementation="org.eclipse.jetty.server.nio.SelectChannelConnector">  

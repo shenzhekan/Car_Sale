@@ -1,0 +1,89 @@
+
+.top {
+	opacity: 0.6;
+	width: 100%;
+	height: 80px;
+	background: -ms-linear-gradient(top, #99ccff, #0000ff); /* IE 10 */
+	background: -moz-linear-gradient(top, #99ccff, #f6f6f8); /*»ðºü*/
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#99ccff),
+		to(#f6f6f8));
+	width: 100%; /*¹È¸è*/
+}
+
+.title {
+	margin-left: 150px;
+	padding-top: 30px;
+	font-size: 35px;
+}
+
+.center {
+	width: 100%;
+	height: 720px;;
+	background-image: url(../images/beijing.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top:200px;
+}
+
+.main {
+	filter: alpha(opacity = 60);
+	-moz-opacity: 0.6;
+	-khtml-opacity: 0.6;
+	opacity: 0.6;
+	font-size: 25px;
+	margin-left: 660px;
+	border: 1px solid #B7D8E3;
+	width: 600px;
+	height: 500px;
+	background: -ms-linear-gradient(top, #99ffff, #f6f6f8); /* IE 10 */
+	background: -moz-linear-gradient(top, #99ffff, #f6f6f8); /*»ðºü*/
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#99ffff),
+		to(#f6f6f8));
+	font-size: 25px; /*¹È¸è*/
+}
+
+.main_login {
+	padding-left: 120px;
+	padding-top: 70px;
+}
+
+#ID {
+	width: 250px;
+	height: 30px;
+	line-height: 30px;
+}
+
+#passWord{
+	width: 250px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.login {
+	opacity: 50%;
+	height: 35px;
+	width: 86px;
+	background: #8BB4E0;
+	border: none;
+	font-size: 14px;
+	line-height: 35px;
+	font-weight: bold;
+	color: #000;
+	height: 35px;
+}
+
+.Reset {
+	opacity: 50%;
+	height: 35px;
+	width: 86px;
+	background: #8BB4E0;
+	border: none;
+	font-size: 14px;
+	line-height: 35px;
+	font-weight: bold;
+	color: #000;
+}
+
+.main table tr {
+	height: 70px;
+}

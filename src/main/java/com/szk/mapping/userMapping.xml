@@ -3,9 +3,9 @@
 
 <mapper namespace="com.szk.dao.IUserDao">
 	<resultMap id="UserInfo" type="com.szk.vo.User">
-		<result column="userId" property="User_Id" javaType="VARCHAR"/>
-		<result column="password" property="Password" javaType="VARCHAR"/>
-		<result column="userName" property="UserName" javaType="VARCHAR"/>
+		<result column="userId" property="User_Id" javaType="String"/>
+		<result column="password" property="Password" javaType="String"/>
+		<result column="userName" property="UserName" javaType="String"/>
 		
 	</resultMap>
 	<sql id="column_list">

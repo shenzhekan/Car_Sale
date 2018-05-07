@@ -1,0 +1,150 @@
+.bady_search{
+	background: url(../images/6.gif) repeat left top;
+}
+div.container{
+	width:1200px;
+	margin: 0px auto;
+	text-decoration: none;
+	background-color: #ADADE8;
+}
+div.time_top{
+	background-color: #ADADE8;
+	text-align: right;
+	height: 25px;
+	line-height: 25px;
+	color: #fff;
+	padding-right: 8px;
+}
+p.time_top{
+	color: #fff;
+	text-align: right;
+	background-color: #ADADE8;
+	height: 25px;
+	line-height: 25px;
+	padding-right: 8px;
+}
+p.logo_right{
+	margin-top: 18px;
+	text-align: right;
+}
+p.logo_right a{
+	color: #fff;
+}
+span.welcome{
+	background-color: #ADADE8;
+	padding-left: 27px;
+	margin-right: 22px;
+}
+span.lock{
+	background-color: #ADADE8;
+	padding-left: 27px;
+}
+div.main{
+	background: #fff;
+}
+div.main_left{
+	width:200px;
+	float:left;
+}
+ul.button_bg li{
+	margin-left:-40px;
+	list-style-type: none;
+	width: 160px;
+	height: 50px;
+	line-height: 45px;
+	text-align: center;
+	overflow: hidden;
+	margin-top:10px;
+	padding-left:40px;
+	background: #F7F7F7;
+}
+ul.button_bg li a{
+	letter-spacing:8px;
+	width: 100px;
+	height: 38px;
+	line-height: 38px;
+	color: #3c1558;
+	display: block;
+	text-align: center;
+    text-decoration:none;
+}
+.select{
+	background: #FFF;
+	border-bottom-color: #FFF;
+	border-left: 1px solid #eee;
+	border-top: 1px solid #eee;
+	font-weight: bolder;
+}
+.main_center{
+	position:relative;
+	margin-top:100px;
+	width:1000px;
+	height:1000px;
+}
+div.footer{
+	width:1200px;
+	background: #2a0940;
+	text-align: center;
+	height: 25px;
+	line-height: 25px;
+	color: #fff;
+	float:left;
+	margin-top: 70px;
+}
+
+#f1{
+	display:block;
+	width:1000px;
+	height:750px;
+	margin-left:200px;
+}
+#f2{
+	display:none;
+	width:1000px;
+	height:750px;
+	margin-left:200px;
+}
+#f3{
+	display:none;
+	width:1000px;
+	height:750px;
+	margin-left:200px;
+}
+#f4{
+	display:none;
+	width:1000px;
+	height:750px;
+	margin-left:200px;
+}
+#f5{
+	display:none;
+	width:1000px;
+	height:750px;
+	margin-left:200px;
+}
+
+#iframe_f1,#iframe_f2,#iframe_f3,#iframe_f4,#iframe_f5{
+	width:1000px;
+	height:750px;
+	border:none;
+	background:#f7f7f7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -2,7 +2,7 @@
 	pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="/resources/css/style.css">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
@@ -13,7 +13,7 @@
 	<div class="center">
 		<div class="main">
 			<div class="title">汽车销售管理系统</div>
-			<form action="/user/login" method="post">
+			<form action="/login" method="post">
 				<table class="main_login">
 					<tr>
 						<td>账户：</td>
@@ -21,7 +21,7 @@
 					</tr> 
 					<tr>
 						<td>密码：</td>
-						<td><input id="ID" type="password" name="Password"></td>
+						<td><input id="passWord" type="password" name="Password"></td>
 					</tr>
 					<tr>
 						<td height="35" colspan="2" align="center"><input

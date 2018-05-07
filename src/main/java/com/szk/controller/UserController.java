@@ -10,15 +10,15 @@ import com.szk.service.IUserService;
 import com.szk.vo.User;
 
 @Controller
-@RequestMapping("/user")
+//@RequestMapping("/user")
 public class UserController {
 
 	private IUserService userService;
 	
 	@RequestMapping("/login")
 	public String login(HttpServletRequest request,Model model) {
-		String userId = request.getParameter("user.User_Id");
-		String password = request.getParameter("user.Password");
+		String userId = request.getParameter("User_Id");
+		String password = request.getParameter("Password");
 		
 		User user = this.userService.getUserByIdName(new User(userId,password));
 		if(user.getUserName() != null) {
@@ -27,6 +27,11 @@ public class UserController {
 		}
 		return "login";
 		
+	}
+	
+	@RequestMapping("/index")
+	public String index(HttpServletRequest request,Model model) {
+		return "login";
 	}
 	
 }

@@ -9,6 +9,6 @@ public interface IUserService {
 	 * @param user
 	 * @return
 	 */
-	public User getUserByIdName(User user);
+	public User login(String userId , String password);
 
 }

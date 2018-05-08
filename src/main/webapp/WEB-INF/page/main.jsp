@@ -18,7 +18,7 @@
 	<div class="container">
 		<p class="time_top" id="time">时间</p>
 		<p class="logo_right">
-			<span class="welcome"><a href="" title="">欢迎你:<%=session.getAttribute("User_Id")%></a></span> <span
+			<span class="welcome"><a href="" title="">欢迎你:<%=session.getAttribute("userName")%></a></span> <span
 				class="lock"><a href="login.jsp" title="" class="lock" >安全退出</a></span>
 		</p>
 		<div class="clear"></div>

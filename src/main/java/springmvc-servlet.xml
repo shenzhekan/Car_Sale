@@ -14,7 +14,8 @@
 	
 	<context:component-scan base-package="com.szk.controller" />
      
-     
+    <!-- 设置默认的配置方案 -->
+    <mvc:annotation-driven/>
      
      
     <!-- 定义跳转文件前后缀，视图模式配置 -->

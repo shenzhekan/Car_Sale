@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
 
-<mapper namespace="com.szk.dao.IUserDao">
+<mapper namespace="com.szk.mapper.UserMapper">
 	<resultMap id="UserInfo" type="com.szk.vo.User">
-		<result column="userId" property="User_Id" javaType="String"/>
-		<result column="password" property="Password" javaType="String"/>
-		<result column="userName" property="UserName" javaType="String"/>
+		<result column="userId" property="User_Id" />
+		<result column="password" property="Password" />
+		<result column="userName" property="UserName" />
 		
 	</resultMap>
 	<sql id="column_list">
